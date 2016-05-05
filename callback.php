@@ -1,8 +1,8 @@
 <?php
 	/* 輸入申請的Line Developers 資料  */
-	$channel_id = "1465612502";
-	$channel_secret = "ad401200c7649cf592e8465cb211c47e";
-	$mid = "u484c17afe2e569c044280e931af9f76b";
+	$channel_id = "channel_id";
+	$channel_secret = "channel_secret";
+	$mid = "mid";
 	 
 	/* 將收到的資料整理至變數 */
 	$receive = json_decode(file_get_contents("php://input"));
